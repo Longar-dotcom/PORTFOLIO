@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>John Longar Portfolio - About Me</title>
+
+    <style>
+      /* ==========================
+   GLOBAL STYLE
+========================== */
+
+      * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #745e7a;
+        color: rgb(6, 6, 6);
+        line-height: 1.8;
+      }
+
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 30px;
+      }
+
+      /* HEADER */
+
+      header {
+        text-align: center;
+        background: linear-gradient(135deg, #1e3a8a, #13506c);
+        padding: 50px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0 10px 30px rgba(212, 172, 172, 0.4);
+      }
+
+      header h1 {
+        font-size: 45px;
+      }
+
+      header p {
+        font-size: 22px;
+        color: #e0f2fe;
+      }
+
+      /* NAV */
+
+      nav {
+        background: rgb(41, 184, 227);
+        padding: 15px;
+        text-align: center;
+        border-radius: 15px;
+        margin-bottom: 30px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #0f172a;
+        font-weight: bold;
+      }
+
+      /* SECTIONS */
+
+      section,
+      .certificates {
+        background: linear-gradient(135deg, #001f3f, #020a0f);
+        color: rgb(240, 245, 241);
+        font-family: "Times New Roman", Times, serif;
+        padding: 35px;
+        margin: 30px 0;
+        border-radius: 20px;
+        border-left: 8px solid #fd561a;
+        border-top: 5px solid #e5f838;
+        box-shadow: 0 15px 35px rgba(236, 242, 243, 0.97);
+
+        animation: fade 2s;
+      }
+
+      h2 {
+        text-align: center;
+        color: #38bdf8;
+        font-size: 35px;
+      }
+
+      p {
+        color: #cbd5e1;
+
+        font-size: 17px;
+
+        text-align: justify;
+      }
+
+      /* LINKS */
+
+      a {
+        color: #38bdf8;
+      }
+
+      a:hover {
+        color: #facc15;
+      }
+
+      /* SKILLS */
+
+      .skills {
+        display: grid;
+
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+        gap: 25px;
+      }
+
+      .card {
+        background: #0f172a;
+        padding: 25px;
+        border-radius: 20px;
+        border-left: 8px solid #38bdf8;
+        border-top: 5px solid #38bdf8;
+        transition: 0.4s;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+
+        box-shadow: 0 15px 30px rgba(56, 189, 248, 0.3);
+      }
+
+      .card h3 {
+        text-align: center;
+        color: #facc15;
+      }
+
+      li {
+        color: #cbd5e1;
+
+        margin: 8px;
+      }
+
+      /* PROJECT */
+
+      #projects a {
+        display: inline-block;
+        background: #38bdf8;
+        color: black;
+        padding: 12px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+      }
+
+      #projects a:hover {
+        background: #facc15;
+      }
+
+      /* CERTIFICATES */
+
+      .certificates p {
+        background: #f6f6f7;
+        color: #020a0f;
+        padding: 12px;
+        border-left: 5px solid #f88538;
+        border-radius: 10px;
+      }
+
+      /* FOOTER */
+
+      footer {
+        text-align: center;
+
+        background: #020617;
+
+        padding: 25px;
+
+        border-radius: 20px;
+
+        color: #94a3b8;
+      }
+
+      /* ANIMATION */
+
+      @keyframes fade {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* MOBILE */
+
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 30px;
+        }
+
+        section,
+        .certificates {
+          padding: 20px;
+        }
+
+        p {
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav>
+        <a href="index.html"> Return To Home </a>
+      </nav>
+
+      <section id="about">
+        <h2>ABOUT ME</h2>
+        <p>
+          My name is John Longar Abuoch. I am a young South Sudanese who has
+          experienced many challenges caused by war and displacement. My journey
+          has taught me resilience, patience, determination, and the importance
+          of education.
+        </p>
+
+        <p>
+          i am 26 years old, I was born in 1999 during one of the most difficult
+          periods in the history of South Sudan. My childhood was deeply
+          affected by war, famine, displacement, and insecurity that spread
+          across the entire country for many years. During this time, countless
+          families lost their homes, loved ones, and livelihoods because of the
+          ongoing conflict. Many innocent people, especially young children,
+          women, and the elderly, suffered greatly from hunger, fear, violence,
+          and lack of basic needs such as food, shelter, education, and
+          healthcare. Growing up in such an environment was extremely difficult
+          because every day was uncertain, and survival itself was a challenge
+          for many families.
+        </p>
+
+        <p>
+          As a child, I witnessed the struggles that my family and many other
+          South Sudanese families went through because of the conflict.
+          Communities were constantly displaced, and people were forced to move
+          from one place to another in search of safety and peace. The war and
+          famine created a painful situation where many children could not
+          access education or live a normal childhood. Despite these hardships,
+          my family remained strong and continued to hope for a better future.
+          The difficult experiences we faced taught me the value of resilience,
+          perseverance, and unity even at a very young age. In 2010, when the
+          situation in South Sudan became more dangerous and challenging, my
+          siblings, stepmother, and I were forced to leave our home country and
+          seek refuge in Kenya. We moved to Kakuma Refugee Camp, one of the
+          largest refugee camps in the world, where thousands of refugees from
+          different countries were living after escaping war and conflict.
+          Leaving our homeland was not easy because we had to abandon the life
+          we once knew and begin a completely new journey in a foreign
+          environment. Although arriving in Kakuma brought us safety from the
+          conflict, life in the refugee camp was still very hard.
+        </p>
+        <p>
+          Living in Kakuma Refugee Camp was also one of the most diffuilt things
+          i have never imagine in life untill today because it came with many
+          challenges. Resources were limited, and many families struggled to
+          meet their daily needs. Access to food, clean water, healthcare, and
+          proper shelter was often difficult. Life as a refugee required
+          patience, courage, and determination because opportunities were
+          limited, and many people were trying to survive under the same
+          difficult conditions. However, despite these hardships, my family
+          believed that education was the key to creating a better future.
+        </p>
+        <p>
+          We understood that education could provide us with knowledge, skills,
+          and opportunities to improve our lives and contribute positively to
+          society. Therefore, we made a strong commitment to continue our
+          education even in the refugee camp. I was determined to pursue my
+          studies and work hard to achieve my goals, despite the challenges that
+          came with being a refugee. Education became a source of hope and
+          empowerment for me, as it allowed me to dream of a brighter future and
+          gave me the motivation to overcome the difficulties I faced in the
+          camp.
+        </p>
+        <p>
+          I was determined to continue with my education, and with the little
+          support of my family, I enrolled in school within the refugee camp. In
+          2011, I started my education at Shambe Primary School in Kakuma
+          Refugee Camp. I began in Class One and continued my studies with
+          dedication and determination. Even though learning conditions were not
+          always easy due to overcrowded classrooms and limited educational
+          resources, I remained focused on my studies because I understood the
+          importance of education in transforming mylife and helping me achieve
+          my dreams. Through hard work and commitment, I successfully completed
+          my primary education in 2018 after finishing Class Eight.
+        </p>
+        <p>
+          After i completed my primary education, I continued with my studies at
+          Greenlight refugees secondary school, where I enrolled in 2019. i was
+          very determined to pursue my secondary education and work hard to
+          achieve my goalsand never despite the challenges that come as being a
+          refugee. i continued to study with dedication and perseverance, and in
+          2023, i successfully completed my secondary education, after finishing
+          my high school diploma. This achievement was a significant milestonre
+          in my life, and it gave me hope for a brighter future. despite the
+          difficulties I faced as a refugee, I remained focused on my education
+          and worked hard to overcome the obstacles in my path.
+        </p>
+        <p>
+          My journey from South Sudan to Kakuma Refugee Camp has shaped me into
+          a resilient, hardworking, and determined young person. The challenges
+          I experienced during my childhood taught me to appreciate every
+          opportunity, remain hopeful during difficult times, and work hard
+          toward achieving my goals. Today, my story continues to inspire me to
+          pursue education, personal growth, and opportunities that can help me
+          contribute positively to my community and support others facing
+          similar struggles.
+        </p>
+      </section>
+
+      <section id="education">
+        <h2>MY EDUCATIONAL JOURNEY</h2>
+
+        <p>
+          I was determined to continue with my education, and with the little
+          support of my family, I enrolled in school within the refugee camp. In
+          2011, I started my education at Shambe Primary School in Kakuma
+          Refugee Camp. I began in Class One and continued my studies with
+          dedication and determination. Even though learning conditions were not
+          always easy due to overcrowded classrooms and limited educational
+          resources, I remained focused on my studies because I understood the
+          importance of education in transforming my life and helping me achieve
+          my dreams. Through hard work and commitment, I successfully completed
+          my primary education in 2018 after finishing Class Eight.
+        </p>
+
+        <p>
+          After i completed my primary education, I continued with my studies at
+          Greenlight refugees secondary school, where I enrolled in2019. i was
+          very determined to pursue my secondary education and work hard to
+          achieve my goalsand never despite the challenges that come as being a
+          refugee. i continued to study with dedication and perseverance, and in
+          2023, i successfully completed my secondary education, after finishing
+          my high school diploma. This achievement was a significant milestonre
+          in my life, and it gave me hope for a brighter future. despite the
+          difficulties I faced as a refugee, I remained focused on my education
+          and worked hard to overcome the obstacles in my path.
+        </p>
+
+        <p>
+          After finishing high school, I joined
+          <a
+            href="https://www.refugeelife.org/"
+            target="_blank"
+            title="Action for Refugee Life (AReL) is a refugee-led organization in Kakuma Refugee Camp, Kenya, focused on empowering refugees through cybersecurity, full stack development, digital skills training, mentorship, entrepreneurship, and career development programs. Click to learn more about AReL programs, mission, vision, and opportunities."
+            >Action for Refugee Life (AReL)</a
+          >
+          in 2024 as a cybersecurity student, where I studied for one and a half
+          years. During this time, I gained foundational knowledge and practical
+          skills in cybersecurity, including cyber hygiene, network security,
+          vulnerability assessment, and digital safety practices.
+        </p>
+
+        <p>
+          Currently, I have expanded my learning journey by joining a MERN Full
+          Stack Development program, where I am continuing to build my skills in
+          web development technologies such as MongoDB, Express.js, React, and
+          Node.js. I am passionate about growing in both cybersecurity and
+          software development, and I am committed to continuously improving my
+          technical knowledge and problem-solving abilities. I am excited about
+          the opportunities that lie ahead of me and look forward applying my
+          skills in a meaningful ways to contribute to tech community and
+          support others who are on similar learning paths. i am also a
+          hardworking and dedicated student who values education and always
+          strives to achieve my goals and willing to learn new things and take
+          on challenges that can help me grow both personally and
+          professionally.
+        </p>
+        <p>
+          Education has been the foundation of my personal growth. Through
+          dedication and hard work, I have continued learning despite
+          challenges.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>SKILLS</h2>
+
+        <div class="skills">
+          <div class="card">
+            <h3>CYBERSECURITY</h3>
+
+            <ul>
+              <li>Networking Fundamentals</li>
+
+              <li>Linux Administration</li>
+
+              <li>Python Programming</li>
+
+              <li>Vulnerability Assessment</li>
+
+              <li>Incident Response</li>
+
+              <li>Digital Security</li>
+
+              <li>SIEM Tools</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>WEB DEVELOPMENT</h3>
+
+            <ul>
+              <li>HTML5</li>
+
+              <li>CSS3</li>
+
+              <li>JavaScript</li>
+
+              <li>Bootstrap</li>
+
+              <li>React</li>
+
+              <li>Node.js</li>
+
+              <li>Full Stack Development</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>SOFT SKILLS</h3>
+
+            <ul>
+              <li>Communication</li>
+
+              <li>Teamwork</li>
+
+              <li>Leadership</li>
+
+              <li>Problem Solving</li>
+
+              <li>Adaptability</li>
+
+              <li>Time Management</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>PROJECTS</h2>
+
+        <p>
+          Welcome to my project portfolio. This collection shows my learning
+          journey, technical skills, and practical experience. This project
+          represents a step in my growth as a cybersecurity analyst and full
+          stack developer. From hands-on labs to real-world applications, these
+          projects demonstrate my commitment to learning, problem-solving, and
+          applying my knowledge to create meaningful solutions. Explore the
+          projects below to see how I have developed my skills and contributed
+          to various initiatives in the fields of cybersecurity and web
+          development.
+        </p>
+
+        <a href="https://net-whisper-scan.vercel.app/" target="_blank">
+          NetWhisper Scanner
+        </a>
+        <p>
+          I believe practical projects are essential for developing strong
+          problem-solving and engineering skills. They allow me to apply
+          theoretical knowledge to real-world scenarios, gain hands-on
+          experience, and build a portfolio that showcases my abilities to
+          potential employers and collaborators. Through projects, I can
+          demonstrate my creativity, technical skills, and ability to work on
+          complex problems, which are crucial for success in the cybersecurity
+          and software development fields.
+        </p>
+      </section>
+
+      <div class="certificates">
+        <h2>CERTIFICATIONS</h2>
+
+        <p>CompTIA Security+ (In Progress)</p>
+
+        <p>Certified Ethical Hacker CEH (In Progress)</p>
+
+        <p>Google Career Certificates</p>
+
+        <p>Microsoft Learn</p>
+
+        <p>Cisco Networking Academy</p>
+
+        <p>IBM SkillsBuild</p>
+
+        <p>TryHackMe</p>
+
+        <p>Hack The Box Academy</p>
+
+        <p>freeCodeCamp</p>
+
+        <p>W3Schools</p>
+      </div>
+
+      <footer>@ 2026 John Longar Abuoch Longar | Portfolio Website</footer>
+    </div>
+  </body>
+</html>
